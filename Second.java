@@ -1,4 +1,4 @@
-public class Second {
+pRuleset Nameublic class Second {
     public static void main(String[] args) {
         int number = 5689;
         int division = 54;

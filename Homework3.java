@@ -56,6 +56,12 @@ public class Homework3 {
         }else if (StudentGrade >= 0 && StudentGrade <= 49){
             System.out.println("N6 Task: Fail");
         }
-
+        int a = 101;
+        int result = a & 1;
+        if (result == 0){
+            System.out.println("N8 Task: " + a + " is even number ");
+        }else if (result == 1){
+            System.out.println("N8 Task: " + a + " is odd number ");
+        }
     }
 }

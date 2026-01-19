@@ -36,12 +36,15 @@ public class Second {
         իսկ assignment-ի statement-ից հետո c-ի ու d-ի արժեքները մեկով պակասեն*/
         int h = 899625605;
         int k = 15;
-        long n = (int)  h;
-        long m = (int) k;
+        long n = (long)  h;
+        long m = (long) k;
         long j = n * m;
         System.out.println( j );
 
 
 
     }
+}
+
+void main() {
 }

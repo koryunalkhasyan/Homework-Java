@@ -1,22 +1,56 @@
 package Loops;
 
-import java.util.Scanner;
-
-public class arr {
+public class Arrays200126 {
     public static void main(String[] args) {
-        int[][] arr = {{1, 8, 5, 10, 7}, {1, 5, 6, 8, 9}, {5, 1, 5, 6, 8}};
-//        Scanner number = new Scanner(System.in);
 
-        for (int i = 0; i < arr.length; i++){
-            for (int j = 0; j < arr[1].length; j++ ){
-                System.out.print(arr[i][j] + " ");
+        int[] array1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 11};
+        int count = 0;
+        for (int i = 0; i < array1.length; i++) {
+            int number1 = array1[i];
+
+            boolean isPrime = true;
+            if (number1 < 2) {
+                isPrime = false;
+            } else {
+                for (int j = 2; j * j <= number1; j++) {
+                    if (number1 % j == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
             }
-            for (int x = 2; x < arr[i].length; x++){
-                if ()
+
+            if (isPrime) {
+                count++;
             }
-//            System.out.println();
+        }
+        int[] array2 = new int[count];
+        int index = 0;
+
+
+        for (int i = 0; i < array1.length; i++) {
+            int number2 = array1[i];
+            boolean isPrime = true;
+
+            if (number2 < 2) {
+                isPrime = false;
+            } else {
+                for (int j = 2; j * j <= number2; j++) {
+                    if (number2 % j == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+            }
+            if (isPrime) {
+                array2[index] = number2;
+                index++;
+            }
         }
 
+        for (int i = 0; i < array2.length; i++) {
+            System.out.print(array2[i] + " ");
+        }
     }
-
 }
+

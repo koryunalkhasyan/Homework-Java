@@ -5,7 +5,7 @@ public class Homework2 {
         int[] arr = {1, 5, 1, 1, 5};
         int sum = 0;
                 for (int i = 0; i < arr.length; i++){
-                    sum += arr[i];
+
                 }
         int leftSum = 0;
                 int index = -1;

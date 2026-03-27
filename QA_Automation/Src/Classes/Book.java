@@ -10,7 +10,7 @@ public class Book {
         author = a;
         yearPublished = y;
     }
-    public void displayInfo(){
+    public void displayyInfo(){
         System.out.println("Title: " + title + "Author: " + author + " Year: " + yearPublished);
 
     }

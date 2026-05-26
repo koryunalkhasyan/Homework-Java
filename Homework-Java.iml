@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.02.03.26" isTestSource="false" packagePrefix="Src.Homework_020326" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.04.03.26" isTestSource="false" packagePrefix="QA_Automation.Src.Homework_040326" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.10.02.26" isTestSource="false" packagePrefix="Src.Function" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.10.03.26" isTestSource="false" packagePrefix="QA_Automation.Src.HomeWork_100326" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.11.01.26" isTestSource="false" packagePrefix="Src.Homeworks" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.18.01.26" isTestSource="false" packagePrefix="Src.Loops" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.25.02.26" isTestSource="false" packagePrefix="Src.Classes" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.27.03.26" isTestSource="false" packagePrefix="QA_Automation.Src.HomeWork_270326" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src/homeWorks.31.03.26" isTestSource="false" packagePrefix="QA_Automation.Src.HomeWork_310326" />
+      <sourceFolder url="file://$MODULE_DIR$/QA_Automation/Src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

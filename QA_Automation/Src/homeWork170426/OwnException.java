@@ -7,7 +7,7 @@ public class OwnException {
             account.withdraw(1500);
         } catch (InsufficientFundsException e) {
             System.out.println(e.getMessage());
-            System.out.println("Shortage: " + e.getShortage());
+//            System.out.println("Shortage: " + e.getShortage());
         }
     }
 }

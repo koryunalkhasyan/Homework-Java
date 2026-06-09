@@ -10,9 +10,9 @@ public class Product {
     }
     @Override
     public boolean equals(Object o ){
-        if(this == o) return true;
-        if(!(o instanceof Product)) return false;
-        Product product = (Product) o;
+            if(this == o) return true;
+            if(!(o instanceof Product)) return false;
+            Product product = (Product) o;
         return Double.compare(product.price, price) == 0 && name.equals(product.name);
     }
 }
